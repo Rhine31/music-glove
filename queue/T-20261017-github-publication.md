@@ -1,6 +1,6 @@
 # T-20261017 GitHub 发布准备
 
-- 状态：`in-progress`
+- 状态：`done`
 - 授权：用户明确要求上传到 GitHub，使其他人可下载并用 Xcode 运行。
 
 ## 范围
@@ -21,5 +21,5 @@
 - [x] `.gitignore` 命中本地生成内容。
 - [x] Markdown 链接与 Xcode 工程配置通过检查。
 - [x] 服务测试与 iOS XCTest 通过。
-- [ ] GitHub 默认分支可见且可克隆。
+- [x] GitHub 默认分支可见且可克隆。
 - [x] 从已跟踪文件中未检出明显凭据。
