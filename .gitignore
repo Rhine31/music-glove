@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Xcode user state and local build products
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager local state
+.build/
+.swiftpm/
+
+# Python virtual environments, caches and local service data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.local-data/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.sf2
+*.sf3
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*~

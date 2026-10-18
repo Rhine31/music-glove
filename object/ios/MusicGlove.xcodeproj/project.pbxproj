@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000101 /* App/MusicGloveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* App/MusicGloveApp.swift */; };
+		000000000000000000000102 /* App/AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* App/AppModel.swift */; };
+		000000000000000000000103 /* Domain/DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000203 /* Domain/DomainModels.swift */; };
+		000000000000000000000104 /* Ports/ServicePorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* Ports/ServicePorts.swift */; };
+		000000000000000000000105 /* Infrastructure/HTTPAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000205 /* Infrastructure/HTTPAnalysisService.swift */; };
+		000000000000000000000106 /* Infrastructure/SimulatedGloveGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000206 /* Infrastructure/SimulatedGloveGateway.swift */; };
+		000000000000000000000107 /* Features/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000207 /* Features/RootView.swift */; };
+		000000000000000000000108 /* Features/Create/CreateHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000208 /* Features/Create/CreateHomeView.swift */; };
+		000000000000000000000109 /* Features/Edit/EditorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000209 /* Features/Edit/EditorHomeView.swift */; };
+		00000000000000000000010A /* Features/Me/ProfileHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020A /* Features/Me/ProfileHomeView.swift */; };
+		00000000000000000000010B /* DesignSystem/MGTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020B /* DesignSystem/MGTheme.swift */; };
+		00000000000000000000010C /* DomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020C /* DomainModelTests.swift */; };
+		000000000000000000000110 /* Features/Create/CreationFlowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000210 /* Features/Create/CreationFlowViews.swift */; };
+		000000000000000000000111 /* HTTPAnalysisServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000211 /* HTTPAnalysisServiceTests.swift */; };
+		000000000000000000000112 /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000212 /* AppModelTests.swift */; };
+		000000000000000000000113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000213 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000401;
+			remoteInfo = MusicGlove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000201 /* App/MusicGloveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/MusicGloveApp.swift; sourceTree = "<group>"; };
+		000000000000000000000202 /* App/AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		000000000000000000000203 /* Domain/DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/DomainModels.swift; sourceTree = "<group>"; };
+		000000000000000000000204 /* Ports/ServicePorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ports/ServicePorts.swift; sourceTree = "<group>"; };
+		000000000000000000000205 /* Infrastructure/HTTPAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/HTTPAnalysisService.swift; sourceTree = "<group>"; };
+		000000000000000000000206 /* Infrastructure/SimulatedGloveGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure/SimulatedGloveGateway.swift; sourceTree = "<group>"; };
+		000000000000000000000207 /* Features/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/RootView.swift; sourceTree = "<group>"; };
+		000000000000000000000208 /* Features/Create/CreateHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Create/CreateHomeView.swift; sourceTree = "<group>"; };
+		000000000000000000000209 /* Features/Edit/EditorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Edit/EditorHomeView.swift; sourceTree = "<group>"; };
+		00000000000000000000020A /* Features/Me/ProfileHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Me/ProfileHomeView.swift; sourceTree = "<group>"; };
+		00000000000000000000020B /* DesignSystem/MGTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/MGTheme.swift; sourceTree = "<group>"; };
+		00000000000000000000020C /* DomainModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModelTests.swift; sourceTree = "<group>"; };
+		00000000000000000000020D /* Resources/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
+		00000000000000000000020E /* MusicGlove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGlove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000020F /* MusicGloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000210 /* Features/Create/CreationFlowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Create/CreationFlowViews.swift; sourceTree = "<group>"; };
+		000000000000000000000211 /* HTTPAnalysisServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPAnalysisServiceTests.swift; sourceTree = "<group>"; };
+		000000000000000000000212 /* AppModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelTests.swift; sourceTree = "<group>"; };
+		000000000000000000000213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000601 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000602 /* MusicGlove */,
+				000000000000000000000603 /* MusicGloveTests */,
+				000000000000000000000604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000602 /* MusicGlove */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000201 /* App/MusicGloveApp.swift */,
+				000000000000000000000202 /* App/AppModel.swift */,
+				000000000000000000000203 /* Domain/DomainModels.swift */,
+				000000000000000000000204 /* Ports/ServicePorts.swift */,
+				000000000000000000000205 /* Infrastructure/HTTPAnalysisService.swift */,
+				000000000000000000000206 /* Infrastructure/SimulatedGloveGateway.swift */,
+				000000000000000000000207 /* Features/RootView.swift */,
+				000000000000000000000208 /* Features/Create/CreateHomeView.swift */,
+				000000000000000000000209 /* Features/Edit/EditorHomeView.swift */,
+				00000000000000000000020A /* Features/Me/ProfileHomeView.swift */,
+				00000000000000000000020B /* DesignSystem/MGTheme.swift */,
+				00000000000000000000020D /* Resources/Info.plist */,
+				000000000000000000000213 /* Assets.xcassets */,
+				000000000000000000000210 /* Features/Create/CreationFlowViews.swift */,
+			);
+			path = MusicGlove;
+			sourceTree = "<group>";
+		};
+		000000000000000000000603 /* MusicGloveTests */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000020C /* DomainModelTests.swift */,
+				000000000000000000000211 /* HTTPAnalysisServiceTests.swift */,
+				000000000000000000000212 /* AppModelTests.swift */,
+			);
+			path = MusicGloveTests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000020E /* MusicGlove.app */,
+				00000000000000000000020F /* MusicGloveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000401 /* MusicGlove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000701 /* Build configuration list for PBXNativeTarget "MusicGlove" */;
+			buildPhases = (
+				000000000000000000000801 /* Sources */,
+				000000000000000000000501 /* Frameworks */,
+				000000000000000000000901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicGlove;
+			productName = MusicGlove;
+			productReference = 00000000000000000000020E /* MusicGlove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000402 /* MusicGloveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000702 /* Build configuration list for PBXNativeTarget "MusicGloveTests" */;
+			buildPhases = (
+				000000000000000000000802 /* Sources */,
+				000000000000000000000502 /* Frameworks */,
+				000000000000000000000902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000302 /* PBXTargetDependency */,
+			);
+			name = MusicGloveTests;
+			productName = MusicGloveTests;
+			productReference = 00000000000000000000020F /* MusicGloveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					000000000000000000000401 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					000000000000000000000402 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 000000000000000000000401;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000703 /* Build configuration list for PBXProject "MusicGlove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000601;
+			productRefGroup = 000000000000000000000604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000401 /* MusicGlove */,
+				000000000000000000000402 /* MusicGloveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000113 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000101 /* App/MusicGloveApp.swift in Sources */,
+				000000000000000000000102 /* App/AppModel.swift in Sources */,
+				000000000000000000000103 /* Domain/DomainModels.swift in Sources */,
+				000000000000000000000104 /* Ports/ServicePorts.swift in Sources */,
+				000000000000000000000105 /* Infrastructure/HTTPAnalysisService.swift in Sources */,
+				000000000000000000000106 /* Infrastructure/SimulatedGloveGateway.swift in Sources */,
+				000000000000000000000107 /* Features/RootView.swift in Sources */,
+				000000000000000000000108 /* Features/Create/CreateHomeView.swift in Sources */,
+				000000000000000000000109 /* Features/Edit/EditorHomeView.swift in Sources */,
+				00000000000000000000010A /* Features/Me/ProfileHomeView.swift in Sources */,
+				00000000000000000000010B /* DesignSystem/MGTheme.swift in Sources */,
+				000000000000000000000110 /* Features/Create/CreationFlowViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000010C /* DomainModelTests.swift in Sources */,
+				000000000000000000000111 /* HTTPAnalysisServiceTests.swift in Sources */,
+				000000000000000000000112 /* AppModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000401 /* MusicGlove */;
+			targetProxy = 000000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MusicGlove/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicglove.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		000000000000000000000A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MusicGlove/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicglove.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		000000000000000000000A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicglove.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGlove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicGlove";
+			};
+			name = Debug;
+		};
+		000000000000000000000A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.musicglove.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGlove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicGlove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000701 /* Build configuration list for PBXNativeTarget "MusicGlove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000A03 /* Debug */,
+				000000000000000000000A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000702 /* Build configuration list for PBXNativeTarget "MusicGloveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000A05 /* Debug */,
+				000000000000000000000A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000703 /* Build configuration list for PBXProject "MusicGlove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000A01 /* Debug */,
+				000000000000000000000A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

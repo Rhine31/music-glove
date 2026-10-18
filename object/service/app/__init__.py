@@ -1,0 +1,1 @@
+"""Music Glove analysis service."""
