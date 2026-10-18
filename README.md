@@ -45,14 +45,14 @@ xcodebuild \
 
 | 目录 | 用途 |
 | --- | --- |
-| `charter/` | 项目章程、范围和里程碑 |
+| [`charter/`](charter/README.md) | 项目章程、范围和里程碑 |
 | `truth/` | 经确认的设计、架构和工程正本 |
 | `object/` | App、固件、云服务及共享代码等实际产物 |
 | `queue/` | 任务、计划、交接和验收记录 |
 | `gate/` | 必须通过的测试与发布门禁 |
-| `eval/` | 体验与模型效果评价 |
-| `tool/` | 项目脚本与开发工具 |
-| `reference/` | 有来源的外部参考资料 |
+| [`eval/`](eval/README.md) | 体验、模型质量与研究性评价 |
+| [`tool/`](tool/README.md) | 实际工具链、可重复命令与安全边界 |
+| [`reference/`](reference/README.md) | 有来源的技术资料、视觉资产说明与历史参考 |
 
 项目已进入阶段 A 工程骨架开发。首版采用 iPhone 原生 SwiftUI、Bluetooth Low Energy 方向，以及 Python/FastAPI + Spotify Basic Pitch + FluidSynth/SoundFont 分析管线；手套具体协议、数据库、生产云部署、授权 SoundFont、同步和正式文件格式仍待后续 ADR 确认。
 
